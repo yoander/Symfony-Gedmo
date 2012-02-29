@@ -14,12 +14,16 @@ looks when you access `http://localhost` in a browser.
 Playing the demo
 --------------------------------------
 php app/console doctrine:database:create
+
 php app/console doctrine:schema:create
 
-Insert categories
+
+Insert categories:
+
 http://localhost/Symfony/web/app_dev.php/demo/insert-categories
 
-View categories
+View categories:
+
 http://localhost/Symfony/web/app_dev.php/demo/categories/{locale}
 
 locale = [es|en]
